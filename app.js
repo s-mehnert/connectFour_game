@@ -107,11 +107,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     squares[i].classList.add("player-one");
                     currentPlayer = 2;
                     displayCurrentPlayer.innerHTML = currentPlayer;
+                    displayCurrentPlayer.classList.remove("player-one");
+                    displayCurrentPlayer.classList.add("player-two");
                 } else if (currentPlayer === 2) {
                     squares[i].classList.add("taken");
                     squares[i].classList.add("player-two");
                     currentPlayer = 1;
                     displayCurrentPlayer.innerHTML = currentPlayer;
+                    displayCurrentPlayer.classList.remove("player-two");
+                    displayCurrentPlayer.classList.add("player-one");
                 }
             } else alert("Can't go here!");
             checkBoard();
