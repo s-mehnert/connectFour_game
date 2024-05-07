@@ -1,6 +1,6 @@
 # Connect Four Game
 
-Description
+2-player game with the objective of forming a horizontal, vertical, or diagonal line by placing differently colored tokens in a 6x7 grid.
 
 ## Installation
 
@@ -9,7 +9,7 @@ The game was written using JavaScript, HTML and CSS.
 
 ## Usage
 
-Play the game directly on the project's GitHub Page: link here
+Play the game directly on the project's GitHub Page: https://s-mehnert.github.io/connectFour_game/
 
 ## Contributing
 
