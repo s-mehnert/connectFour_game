@@ -1,3 +1,8 @@
+html {
+    max-width: 500px;
+    margin: auto;
+}
+
 body {
     background-color: black;
     color: aliceblue;
@@ -7,13 +12,13 @@ body {
     border: 1px solid aliceblue;
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 350px;
+    height: 420px;
+    width: 490px;
 }
 
 .grid div {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 
 .player-one {
