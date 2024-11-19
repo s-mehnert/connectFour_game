@@ -1,11 +1,14 @@
 html {
     max-width: 500px;
-    margin: auto;
 }
 
 body {
     background-color: black;
     color: aliceblue;
+}
+
+a {
+    color: aliceblue
 }
 
 .grid {
