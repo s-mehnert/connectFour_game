@@ -1,5 +1,5 @@
 html {
-    max-width: 500px;
+    margin: auto;
 }
 
 body {
@@ -7,8 +7,9 @@ body {
     color: aliceblue;
 }
 
+
 a {
-    color: aliceblue
+    color: aliceblue;
 }
 
 .grid {
